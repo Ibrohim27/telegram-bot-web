@@ -6,7 +6,7 @@ import './Header.css'
 
 const Header = (props) => {
 
-    const {user, onClose, onToggleButton} = useTelegram;
+    const {user, onClose} = useTelegram();
 
     return(
         <div className={'header'}>
